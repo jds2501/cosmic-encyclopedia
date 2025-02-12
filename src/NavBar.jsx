@@ -1,14 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
-function NavBar() {
+function NavBar({ data }) {
     return (
         <nav className="NavBar">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/Mars">Mars</NavLink>
-            <NavLink to="/Venus">Venus</NavLink>
-            <NavLink to="/OrionNebula">Orion Nebula</NavLink>
-            <NavLink to="/AndromedaGalaxy">Andromeda Galaxy</NavLink>
+            {data.map((item) => {
+                return <NavLink key={item.id} to={item.header}>{item.header}</NavLink>
+            })}
         </nav>
     )
 }

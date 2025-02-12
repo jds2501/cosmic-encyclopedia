@@ -3,11 +3,11 @@ import NavBar from "./NavBar"
 import "./App.css";
 import NavigateBackButton from "./NavigateBackButton";
 
-function App() {
+function App({ data }) {
   return (
     <div className="App">
       <div className="AppMain">
-        <NavBar />
+        <NavBar data={data} />
         <Outlet />
       </div>
       <NavigateBackButton />
