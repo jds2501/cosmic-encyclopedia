@@ -1,4 +1,4 @@
-function HomePage({ }) {
+function HomePage() {
     return (
         <>
             <h1>Welcome to the Cosmic Encyclopedia</h1>
