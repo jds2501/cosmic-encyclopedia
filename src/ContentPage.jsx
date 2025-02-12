@@ -32,10 +32,10 @@ function ContentPage() {
     }
 
     return (
-        <>
+        <div>
             <h1>{celestialObjects[params.id].header}</h1>
             <p>{celestialObjects[params.id].description}</p>
-        </>
+        </div>
     )
 }
 

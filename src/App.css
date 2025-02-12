@@ -2,8 +2,32 @@ body {
     background-color: black;
     margin-top: 50px;
     font-family: monospace;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 body, a {
     color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    border-color: #3d774e;
+}
+
+.App {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+}
+
+.AppMain {
+    flex-grow: 1;
 }

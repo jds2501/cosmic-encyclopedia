@@ -1,6 +1,6 @@
 function HomePage() {
     return (
-        <>
+        <div>
             <h1>Welcome to the Cosmic Encyclopedia</h1>
             <p>Embark on a journey through the universe and discover the wonders of the cosmos.
                 From the fiery surfaces of stars to the icy realms of distant comets, the Cosmic Encyclopedia
@@ -8,7 +8,7 @@ function HomePage() {
             <p>Navigate through our collection to learn more about the various celestial phemomena, their history,
                 composition, nd the mysteries they hold.
             </p>
-        </>
+        </div>
     )
 }
 
